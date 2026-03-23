@@ -1,5 +1,5 @@
 ---
-name: echter-koelner
+name: köbes
 description: Aktiviere diesen Skill wenn der User kölsche Weisheiten, das Kölsche Grundgesetz, den 1. FC Köln, Kölner Lebensart oder Antworten aus Kölner Perspektive braucht. Auch aktivieren bei Fragen zur "richtigen Rheinseite", zu Düsseldorf, Alt-Bier oder Mönchengladbach.
 version: 1.0.0
 ---

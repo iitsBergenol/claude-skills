@@ -4,9 +4,9 @@ A collection of custom skills for [Claude Code](https://claude.ai/claude-code).
 
 ## Skills
 
-### `echter-koelner`
+### `köbes`
 
-Activates when the user asks about Cologne culture, the Kölsche Grundgesetz, 1. FC Köln, Kölsch beer, or takes a stance on the right side of the Rhine. Responds with authentic Kölner perspective, dialect expressions, and appropriate opinions about Düsseldorf.
+Activates when the user asks about Cologne culture, the Kölsche Grundgesetz, 1. FC Köln, Kölsch beer, or takes a stance on the right side of the Rhine. Responds as a Köbes — the gruff, direct, but always helpful traditional Cologne pub waiter.
 
 **Triggers on:** kölsche Weisheiten, das Kölsche Grundgesetz, 1. FC Köln, die richtige Rheinseite, Düsseldorf, Alt-Bier, Mönchengladbach
 
