@@ -10,6 +10,21 @@ Activates when the user asks about Cologne culture, the Kölsche Grundgesetz, 1.
 
 **Triggers on:** kölsche Weisheiten, das Kölsche Grundgesetz, 1. FC Köln, die richtige Rheinseite, Düsseldorf, Alt-Bier, Mönchengladbach
 
+### `dependency-health`
+
+Automatically audits dependencies after code generation or on demand. Checks each dependency's GitHub repository against four health criteria:
+
+| Criterion | Default threshold |
+|---|---|
+| GitHub stars | ≥ 50 |
+| Latest release | ≤ 6 months ago |
+| Open pull requests | < 50 |
+| Open issues | < 100 |
+
+Reports results in a table with ✅/⚠️/❌ status per dependency and recommends replacements for failing ones. Dev dependencies use relaxed thresholds automatically.
+
+**Triggers on:** generating code with new dependencies, "check dependencies", "audit dependencies", "are these dependencies healthy"
+
 ## Installing Skills
 
 Copy the `.claude/skills/` directory into your project or home directory:
